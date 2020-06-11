@@ -7,6 +7,7 @@ Http gateway for files from minter blockchain
 composer install
 composer dump-autoload --optimize
 ```
+* Edit API data in a file `index.php`
 * [Configure web server](https://symfony.com/doc/current/setup/web_server_configuration.html) 
 * Enable caching by the web server. (optional)
 
