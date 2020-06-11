@@ -14,3 +14,5 @@ composer dump-autoload --optimize
 ### Uploaded files for test
 * https://mfile.online/Mt5bae4befb8f0b451bd0a2701a298d4c7d123043826982f128dbff4f1787955a1
 * https://mfile.online/Mt03f4e5bcac44631e7dee326263bc0972b90005ea16bc44706d36fd144ffaf40c
+
+Uploading files is available through [upload service](https://upload.minter-service.online) or independently through transactions.
