@@ -1,0 +1,31 @@
+{
+    "name": "counters/minter-file-symfony-gateway",
+    "description": "symfony response minter file",
+    "type": "project",
+    "license": "LGPL-3.0-only",
+    "require": {
+        "symfony/config": "5.1.*",
+        "symfony/http-kernel": "5.1.*",
+        "symfony/http-foundation": "5.1.*",
+        "symfony/routing": "5.1.*",
+        "symfony/dependency-injection": "5.1.*",
+        "symfony/framework-bundle": "5.1.*",
+        "minter/minter-php-sdk": "^2.3",
+        "stephenhill/base58": "~1.0",
+        "guzzlehttp/guzzle": "^6.5"
+    },
+    "require-dev": {
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Aleksey",
+            "email": "webcounters@gmail.com"
+        }
+    ]
+}
