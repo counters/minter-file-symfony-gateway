@@ -50,9 +50,6 @@ class Kernel extends BaseKernel
     public function phpinfo()
     {
         phpinfo();
-        /* return new JsonResponse([
-             'number' => random_int(0, $limit),
-         ]);*/
     }
 
     public function indexController()
